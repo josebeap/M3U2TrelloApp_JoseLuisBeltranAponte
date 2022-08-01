@@ -74,10 +74,10 @@
               >
               <select name="responsableTarea" id="responsableTarea">
                 <option value="">--Seleccionar--</option>
-                <option value="Jose">--Desarrollador Jose--</option>
-                <option value="Juan">--Desarrollador Juan--</option>
-                <option value="Julian">--Desarrollador Julian--</option>
-                <option value="Luisa">--Desarrolladora Luisa--</option>
+                <option value="Jose">Desarrollador Jose</option>
+                <option value="Juan">Desarrollador Juan</option>
+                <option value="Julian">Desarrollador Julian</option>
+                <option value="Luisa">Desarrolladora Luisa</option>
               </select>
             </div>
             <!--Input responsable-->
@@ -100,12 +100,12 @@
 
             <!--Input deadline-->
             <div class="row-form">
-              <label for="deadLineTarea" class="form-NuevaTarea_label"></label>
+              <label for="deadLineTarea" class="form-NuevaTarea_label">Tiempo desarrollo:</label>
               <select name="deadLineTarea" id="deadLineTarea">
                 <option value="">--Seleccionar--</option>
-                <option value="1">--1 día--</option>
-                <option value="2">--2 días--</option>
-                <option value="3">--1 semana--</option>
+                <option value="1">1 día</option>
+                <option value="2">2 días</option>
+                <option value="3">1 semana</option>
               </select>
             </div>
             <!--Input deadline-->
@@ -131,5 +131,20 @@
       </div>
     </aside>
     <!--Fin Aside nueva tarea-->
+
+    <!-- Recursos externos -->
+    <script src="js/librerias/axios.js"></script>
+    <script src="js/librerias/moment.js"></script>
+    <script src="js/librerias/draggable.js"></script>
+    <script src="js/librerias/hammer.js"></script>
+
+    <!-- Recursos internos -->
+    <script src="js/api/requests.js"></script>
+    <script src="js/fecha.js"></script>
+    <script src="js/modal.js"></script>
+    <script src="js/movimientoTarjetas.js"></script>
+    <script src="js/gestosHammer.js"></script>
+    <script src="js/nuevaTarea.js"></script>
+
   </body>
 </html>

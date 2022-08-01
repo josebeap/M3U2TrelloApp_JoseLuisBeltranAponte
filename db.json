@@ -6,8 +6,8 @@
         "person": "Jose",
         "details": "Iniciación de parte visual del proyecto",
         "state": "done",
-        "deadline": 1290410940,
-        "created": 1615352159
+        "deadline": 1659416340,
+        "created": 1659229200
       },
       {
         "id": 2,
@@ -15,8 +15,8 @@
         "person": "Luisa",
         "details": "Estructuración y definición de framework para la creación de la lógica del programa",
         "state": "to-do",
-        "deadline": 1615524959,
-        "created": 1615352159
+        "deadline": 1659416340,
+        "created": 1659229200
       }
     ]
   }
