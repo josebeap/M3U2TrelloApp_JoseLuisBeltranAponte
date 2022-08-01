@@ -5,12 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Trello App</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="shortcut icon" href="assets/trello.svg" type="image/x-icon">
   </head>
   <body class="l-app" id="app">
     <!-- Header -->
     <header class="header-app">
       <div class="l-container">
-        <img class="logo" src="" alt="Logo Trello App" />
+        <img class="logo" src="./assets/trello.svg" alt="Logo Trello App" />
         <button class="button button-primary" id="btnNuevaTarea">
           Crear Tarea
         </button>
@@ -50,23 +52,80 @@
         <div class="form-container">
           <h2 class="aside-form-title">Nueva Tarea</h2>
           <form class="form-nueva-tarea" id="formNuevaTarea">
-              <!--Input Titulo-->
+            <!--Input Titulo-->
             <div class="row-form">
               <label for="tituloTarea" class="form-NuevaTarea_label"
                 >Titulo:</label
               >
-              <input id="tituloTarea" name="tituloTarea" type="text" class="form-new-task_input" placeholder="Escribe un titulo">
+              <input
+                id="tituloTarea"
+                name="tituloTarea"
+                type="text"
+                class="form-nueva-tarea_input"
+                placeholder="Escribe un titulo"
+              />
             </div>
             <!--Input Titulo-->
-            
+
             <!--Input responsable-->
             <div class="row-form">
-                <label for="tituloTarea" class="form-NuevaTarea_label"
-                  >Titulo:</label
+              <label for="responsableTarea" class="form-NuevaTarea_label"
+                >Responsable:</label
+              >
+              <select name="responsableTarea" id="responsableTarea">
+                <option value="">--Seleccionar--</option>
+                <option value="Jose">--Desarrollador Jose--</option>
+                <option value="Juan">--Desarrollador Juan--</option>
+                <option value="Julian">--Desarrollador Julian--</option>
+                <option value="Luisa">--Desarrolladora Luisa--</option>
+              </select>
+            </div>
+            <!--Input responsable-->
+
+            <!--Input Descripción-->
+            <div class="row-form">
+              <label for="detalleTarea" class="form-NuevaTarea__label"
+                >Descripción:</label
+              >
+              <textarea
+                class=""
+                name="detalleTarea"
+                id="detalleTarea"
+                cols="3"
+                rows="3"
+                placeholder="Ingresa el detalle de la tarea"
+              ></textarea>
+            </div>
+            <!--Input Descripción-->
+
+            <!--Input deadline-->
+            <div class="row-form">
+              <label for="deadLineTarea" class="form-NuevaTarea_label"></label>
+              <select name="deadLineTarea" id="deadLineTarea">
+                <option value="">--Seleccionar--</option>
+                <option value="1">--1 día--</option>
+                <option value="2">--2 días--</option>
+                <option value="3">--1 semana--</option>
+              </select>
+            </div>
+            <!--Input deadline-->
+
+            <!--Botones-->
+            <div class="row-form">
+              <div class="form-NuevaTarea_buttons">
+                <button class="button button-primary" type="submit">
+                  Guardar
+                </button>
+                <button
+                  type="reset"
+                  class="button button-secundary ghost"
+                  id="btnCancelarNuevaTarea"
                 >
-                <input id="tituloTarea" name="tituloTarea" type="text" class="form-new-task_input" placeholder="Escribe un titulo">
+                  Cancelar
+                </button>
               </div>
-              <!--Input responsable-->
+            </div>
+            <!--Fin Botones-->
           </form>
         </div>
       </div>
