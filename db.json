@@ -1,0 +1,23 @@
+{
+    "tasks": [
+      {
+        "id": 1,
+        "title": "Frontend",
+        "person": "Jose",
+        "details": "Iniciación de parte visual del proyecto",
+        "state": "done",
+        "deadline": 1290410940,
+        "created": 1615352159
+      },
+      {
+        "id": 2,
+        "title": "Backend",
+        "person": "Luisa",
+        "details": "Estructuración y definición de framework para la creación de la lógica del programa",
+        "state": "to-do",
+        "deadline": 1615524959,
+        "created": 1615352159
+      }
+    ]
+  }
+  
