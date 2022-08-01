@@ -17,6 +17,15 @@
         "state": "to-do",
         "deadline": 1659416340,
         "created": 1659229200
+      },
+      {
+        "id": 3,
+        "title": "CSS",
+        "person": "Juan",
+        "details": "Creación de estilos CSS para la parte del Fronted definiendo una estructura base que todos usaremos",
+        "state": "in-progress",
+        "deadline": 1659502740,
+        "created": 1659211200
       }
     ]
   }
