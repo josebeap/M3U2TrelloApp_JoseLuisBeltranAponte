@@ -1,3 +1,5 @@
+//Eliminamos estilos Hammer y creamos eventos para versiones moviles de gestos
+
 delete Hammer.defaults.cssProps.userSelect;
 
 const APP = document.querySelector("#app");

@@ -1,3 +1,6 @@
+//Instanciamos y generamos nuestro modal de creación de nueva tarea
+//Esto activando y desactivando la clase active
+
 const modalNuevaTarea = document.querySelector('#modalNuevaTarea');
 
 const btnNuevaTarea = document.querySelector('#btnNuevaTarea');
