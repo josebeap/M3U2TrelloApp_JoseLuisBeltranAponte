@@ -12,7 +12,7 @@
       {
         "id": 2,
         "title": "Backend",
-        "person": "Luisa",
+        "person": "Laura",
         "details": "Estructuración y definición de framework para la creación de la lógica del programa",
         "state": "to-do",
         "deadline": 1659416340,
